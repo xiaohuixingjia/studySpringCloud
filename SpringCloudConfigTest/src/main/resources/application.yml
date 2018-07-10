@@ -5,10 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xiaohuixingjia/studySpringCloud/SpringCloudConfigTest/
-          search-paths:
-            - src/main/resources/
+          uri: https://github.com/xiaohuixingjia/studySpringCloud/SpringCloudConfigTest/src/main/
+          search-paths : resources
       label: master
 server:
-  port: 8761
-
+  port: 8888
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
