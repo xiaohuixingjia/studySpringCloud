@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xiaohuixingjia/studySpringCloud/SpringCloudConfigTest/src/main/
-          search-paths : resources
+          uri: https://github.com/forezp/SpringcloudConfig/
+          search-paths : respo
       label: master
 server:
   port: 8888
