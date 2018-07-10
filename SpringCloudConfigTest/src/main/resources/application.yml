@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://github.com/xiaohuixingjia/studySpringCloud/SpringCloudConfigTest/
           search-paths:
-            - resource
+            - src/main/resources/
       label: master
 server:
   port: 8761
